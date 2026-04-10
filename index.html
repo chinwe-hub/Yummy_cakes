@@ -1,87 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Yummy Cakes</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Cakes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-
-<header>
-  <nav class="navbar">
-    <h1 class="logo">Yummy Cakes</h1>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="shop.html">Shop</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-
-
-<section class="hero">
-  <div class="hero-text">
-    <h2>Delicious Cakes, Irresistible Treats</h2>
-    <p>Custom cakes for every celebration</p>
-    <button>Shop Now</button>
-  </div>
-</section>
-
-
-<section class="categories">
-  <h2>Our Categories</h2>
-  <div class="category-grid">
-    <div class="card">Birthday Cakes</div>
-    <div class="card">Wedding Cakes</div>
-    <div class="card">Cupcakes</div>
-    <div class="card">Desserts</div>
-  </div>
-</section>
-
-
-<section class="products">
-  <h2>Popular Products</h2>
-  <div class="product-grid">
-
-    <div class="product">
-      <img src="images/cake1.jpg" alt="">
-      <h3>Chocolate Cake</h3>
-      <p>$25</p>
-      <button>Add to Cart</button>
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-links">
+                <a href="#">About Us</a> | <a href="#">My Account</a> | <a href="#">Wishlist</a> | <a href="#">Contact Us</a>
+            </div>
+            <div class="delivery-info">
+                Fastest Delivery times Lagos
+            </div>
+        </div>
     </div>
 
-    <div class="product">
-      <img src="images/cake2.jpg" alt="">
-      <h3>Vanilla Cake</h3>
-      <p>$20</p>
-      <button>Add to Cart</button>
-    </div>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/Logo/Yummy Cakes.png" alt="Yummy Cakes" width="150">
+            </div>
 
-  </div>
-</section>
+            <div class="search-box">
+                <input type="text" placeholder="Search for products...">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
 
+            <div class="header-icons">
+                <div class="icon-item">
+                    <span class="badge">0</span>
+                    <i class="fa-solid fa-rotate"></i>
+                    <p>Compare</p>
+                </div>
+                <div class="icon-item">
+                    <span class="badge">0</span>
+                    <i class="fa-regular fa-heart"></i>
+                    <p>Wishlist</p>
+                </div>
+                <div class="icon-item">
+                    <span class="badge">0</span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p>Cart</p>
+                </div>
+                <div class="icon-item">
+                    <i class="fa-regular fa-user"></i>
+                    <p>Account</p>
+                </div>
+            </div>
+        </div>
+    </header>
 
-<section class="locations">
-  <h2>Our Locations</h2>
-  <div class="location-grid">
-    <div>
-      <h4>Opebi</h4>
-      <p>95A Opebi Road, Lagos</p>
-    </div>
-    <div>
-      <h4>Victoria Island</h4>
-      <p>Adeola Hopewell Street</p>
-    </div>
-  </div>
-</section>
+    <nav class="categories-bar">
+        <div class="container">
+            <div class="browse-section">
+                <button class="browse-btn">
+                    <i class="fa-solid fa-table-cells-large"></i>
+                    <span>Browse All Categories</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+            </div>
 
+            <ul class="nav-links">
+                <li><a href="#">Express Cakes <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#">Birthdays</a></li>
+                <li><a href="#">Children</a></li>
+                <li><a href="#">Cupcakes</a></li>
+                <li><a href="#">Butter Cream <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#">Forever Bliss <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#">Desserts</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<footer>
-  <p>© 2026 yummy_cakes. All rights reserved.</p>
-</footer>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Fuel Your Passion for Sports with our Winning Collection</h1>
+            <p>Celebrate Your Favorite Teams in Delicious Style!</p>
+            <button class="shop-now">Shop Now</button>
+        </div>
+    </section>
 
-<script src="js/script.js"></script>
+    <section class="products">
+        <h2>Popular Products</h2>
+        <div class="product-grid">
+            <div class="card">
+                <img src="assets/cakes/neapolitan.jpg" alt="Neapolitan">
+                <h3>Neapolitan</h3>
+                <p class="price">₦44,300.00 – ₦228,300.00</p>
+                <button class="select-options">Select Options</button>
+            </div>
+            </div>
+    </section>
+
 </body>
 </html>
